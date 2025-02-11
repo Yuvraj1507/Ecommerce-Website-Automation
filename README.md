@@ -23,34 +23,109 @@ user experience and bug-free performance through automated testing.
 ✅ Scalability: Built with Maven for dependency management.
 
 
+# 🛠️ Technologies & Tools Used
+
+* Programming Language: Java
+
+* Automation Framework: Selenium WebDriver
+
+* Test Framework: TestNG
+
+* Build Tool: Maven
+
+* Test Reporting: Extent Reports / Allure Reports
+
+* Version Control: Git & GitHub
+
+* CI/CD: Jenkins
+
+* Database Validation: SQL
+
+* Browser Testing: Selenium Grid
 
 
+# 📂 Project Structure
+
+# Ecommerce-Website-Automation-Java-Selenium/
+
+│── src/
+│   ├── test/java/
+│   │   ├── LoginPage.java
+│   │   ├── ApplyFilter.java
+│   │   ├── AddToCart.java
+│   │   ├── CheckoutPage.java
+│   │   ├── LogoutPage.java
+│── pom.xml (Maven dependencies)
+│── README.md (Project Documentation)
+│── testng.xml (TestNG Configuration)
+
+# ⚙️ Installation & Setup
+## Prerequisites
+* Install Java JDK 8+
+
+* Install Maven
+
+* Install Selenium WebDriver
+
+* Install TestNG Plugin (if using Eclipse/IntelliJ)
+
+ ## Setup & Run Tests
+1. Clone the repository:
+
+git clone https://github.com/yourusername/Ecommerce-Website-Automation-Java-Selenium.git
+cd Ecommerce-Website-Automation-Java-Selenium
+
+2. Install dependencies using Maven:
+
+mvn clean install
+
+3. Run Test Cases:
+
+mvn test
+
+4. Generate Test Reports (Extent Reports / Allure Reports):
+
+mvn allure:serve
+
+## 📝 Test Cases Implemented
+
+| **Test Case ID** | **Description** |
+|-----------------|----------------|
+| **TC01**        | Verify Login Functionality |
+| **TC02**        | Apply Filter Functionality |
+| **TC03**        | Add to Cart Functionality |
+| **TC04**        | Checkout Process Verification |
+| **TC05**        | Verify Logout Functionality |
+
+## 🛠️ CI/CD Integration
+* Configured Jenkins Pipeline for automated test execution.
+
+* Integrated Allure Reports for detailed test reporting.
+
+* Selenium Grid Setup for cross-browser testing.
+
+# 🤝 Contribution Guidelines
+
+1. Fork the repository.
+
+2. Create a new branch:
+
+git checkout -b feature-branch-name
+
+3. Commit your changes:
+
+git commit -m "Added new test cases"
+
+4. Push to GitHub:
+
+git push origin feature-branch-name
+
+5. Create a Pull Request.
 
 
+# 📜 License
+
+This project is licensed under the MIT License.
 
 
-
-
-
-
-
-
-TestCase01: Verify Login Functionality
-This test case verifies that the login functionality works correctly.
-
-
-TestCase02: Applying Filter Functionality
-This test case applies a filter to the products and checks if they are displayed in ascending order of price.
-
-
-TestCase03: Add to Cart Functionality
-This test case adds products to the cart and verifies the functionality.
-
-
-TestCase04: Checkout Functionality
-This test case performs the checkout process.
-
-
-TestCase05: Verify Logout Functionality
-This test case verifies that the logout functionality works correctly.
 
