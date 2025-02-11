@@ -8,6 +8,19 @@ adding products to the cart, checkout, and logout. It ensures seamless
 user experience and bug-free performance through automated testing.
 
 
+# 🚀 Features & Functionalities
+
+✅ Automated Functional Testing: Login, product filters, add-to-cart, checkout, and logout.
+
+✅ Data-Driven Testing: Uses TestNG and SQL to validate dynamic test data.
+
+✅ Cross-Browser Testing: Ensures compatibility across Chrome, Firefox, and Edge.
+
+✅ Parallel Execution: Utilizes Selenium Grid to optimize test execution.
+
+✅ CI/CD Integration: Configured with Jenkins for automated testing and reporting.
+
+✅ Scalability: Built with Maven for dependency management.
 
 
 
