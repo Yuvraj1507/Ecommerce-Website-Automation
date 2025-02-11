@@ -1,5 +1,25 @@
-# EcommerceWebsiteAutomation
-This project automates the testing of an e-commerce website using Selenium WebDriver with Java. The test cases cover various functionalities such as login, applying filters, adding products to the cart, checkout, and logout.
+# E-commerce Website Automation
+
+📌 Project Overview
+
+This project automates the testing of an E-commerce website using Selenium WebDriver with 
+Java. The test cases cover various functionalities such as login, applying filters, 
+adding products to the cart, checkout, and logout. It ensures seamless 
+user experience and bug-free performance through automated testing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 TestCase01: Verify Login Functionality
